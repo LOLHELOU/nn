@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+   .header {
+        background: rgb(44, 44, 44);
+    }
+    .container {
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+    .container_header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 36px 0;
+    }
+    .logo {
+        align-items: center;
+        display: flex;
+        color: rgb(255, 255, 255);
+      font-family: Nico Moji;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 18px;
+      letter-spacing: 0%;
+      text-align: left;
+    }
+    .nav__list {
+        display: flex;
+        list-style: none;
+    }
+    .nav__item {
+        margin-right: 63px;
+        color: rgb(228, 228, 228);
+        font-family: Nico Moji;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .nav__item:hover {
+        color: rgb(0, 196, 240);
+    }
+    .hero-block{
+        background: rgb(44, 44, 44);
+    }
+    .conteiner_hero-block{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 124px 66px;
+    }
+    .hero-block__title{
+        margin-bottom: 30px;
+        color: rgb(228, 228, 228);
+        font-family: Nico Moji;
+        font-size: 60px;
+        font-weight: 400;
+        line-height: 72px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .hero-block__text{
+        margin-bottom: 60px;
+        color: rgb(228, 228, 228);
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .hero-block__link{
+        border-radius: 6px;
+        box-shadow: 0px 2px 13px 0px rgba(226, 158, 0, 0.48);
+        background: linear-gradient(135.00deg, rgb(226, 163, 0),rgb(226, 149, 0) 100%);
+        color: rgb(228, 228, 228);
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0%;
+        text-align: left;
+        padding: 15px 30px;
+        text-decoration: none;
+    }
+    .hero-block__content{
+        max-width: 450px;
+    }   
+    .about {
+        background-color: rgb(62, 62, 62);
+    }
+    .about__content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .container_about {
+        padding: 65px 0 40px;
+    }
+    .about__title {
+        color: rgb(228, 228, 228);
+        font-family: Nico Moji;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 48px;
+        letter-spacing: 0%;
+        text-align: center;
+        margin-bottom: 92px;
+    }
+    .content__title {
+        color: rgb(228, 228, 228);
+        font-family: Nico Moji;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 48px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-bottom: 72px;
+    }
+    .line__out {
+        width: 347px;
+        height: 10px;
+        background: rgb(24, 124, 142);
+    }
+
+    .line__in_1 {
+        width: 330px;
+        height: 10px;
+        background: rgb(44, 44, 44);
+    }  
+
+      .line__in_2 {
+        width: 320px;
+        height: 10px;
+        background: rgb(44, 44, 44);
+    }    
+
+       .line__in_3 {
+        width: 340px;
+        height: 10px;
+        background: rgb(44, 44, 44);
+    }
+    .content__text {
+        color: rgb(228, 228, 228);
+        font-family: Nico Moji;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-bottom: 12px;
+    }
+    .content__item {
+        margin-bottom: 25px;
+    }
+    .content__list {
+        list-style: none;
+    }
+    .video {
+        background: rgb(44, 44, 44);
+    }
+    .video_title {
+        color: rgb(228, 228, 228);
+        font-family: Fira Sans;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 48px;
+        letter-spacing: 0%;
+        text-align: center;
+        margin-bottom: 46px;
+    }
+    .container_video {
+        padding: 65px 0 94px;
+    }
+    .video__video {
+        width: 100%;
+        height: 661px;
+        border: 50px rgb(65, 65, 65) solid;
+        border-radius: 29px;
+        box-sizing: border-box;
+    }
+    .gallery {
+        background-color: rgb(62, 62, 62);
+        padding: 65px 0 70px;
+    }
+    .gallery__title {
+        color: rgb(228, 228, 228);
+        font-family: Fira Sans;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 58px;
+        letter-spacing: 0%;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    .gallery__item {
+        margin: 5px;
+        width: 32.5%;
+    }
+    .gallery__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .gallery__list {
+        display: flex;
+        list-style: none;
+        flex-wrap: wrap;
+    }
+    .footer {
+        background: rgb(44, 44, 44);
+    }
+    .container_footer {
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         padding: 50px 0;
+    }
+
+    .footer__list {
+        display: flex;
+        list-style: none;
+    }
+    .footer__title {
+        color: rgb(228, 228, 228);
+        font-family: Nico Moji;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .footer__text{
+        color: rgb(255, 255, 255);
+        font-family: Nico Moji;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 164.06%;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .footer__item {
+        margin-right: 40px;
+    }
